@@ -17,13 +17,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: #797b72;
   font-weight: bold;
   line-height: 1.25
 }
 p {
   color:#777;
 }
+
 h2 {
   font-family: 'Averia Serif Libre', courier;
   font-size: 72px;
@@ -32,7 +33,7 @@ h2 {
 }
 
 .top-bar {
-  background-color: #797b72;
+  background-color: #e5f2f5; //#797b72;
   font-family: sans-serif;
 }
 
