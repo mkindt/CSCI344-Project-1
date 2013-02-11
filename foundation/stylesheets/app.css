@@ -12,9 +12,8 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-body
-{
-background-image:url("../images/NGC.jpg");
+body {
+  background-color:#f3f6e5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,9 +25,21 @@ p {
   color:#777;
 }
 h2 {
+  font-family: 'Averia Serif Libre', courier;
   font-size: 72px;
-  color: rgba(234, 252, 255, 0.2);
-  text-shadow: 0 1px 1px rgba(0,0,0,0.55);
+  color: #e5f2f5; // rgba(234, 252, 255, 1); //#f3f6e5; 
+  text-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+.top-bar {
+  background-color: #797b72;
+  font-family: sans-serif;
+}
+
+
+.topTrees {
+  padding: 50px 0;
+  // background-image:url("../images/tree_light1.jpg");
 }
 
 /* -----------------------------------------
