@@ -30,8 +30,11 @@ h2 {
   font-size: 72px;
   color: #e5f2f5; // rgba(234, 252, 255, 1); //#f3f6e5; 
   text-shadow: 0 1px 1px rgba(0,0,0,1);
+  padding: 0 0 0 0;
 }
-
+.nav-bar {
+  color:black;
+}
 .top-bar {
   background-color: #e5f2f5; //#797b72;
   font-family: sans-serif;
@@ -42,6 +45,7 @@ h2 {
   padding: 50px 0;
   // background-image:url("../images/tree_light1.jpg");
 }
+
 
 /* -----------------------------------------
    Page Name 1
