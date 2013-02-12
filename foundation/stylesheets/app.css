@@ -46,6 +46,25 @@ h2 {
   // background-image:url("../images/tree_light1.jpg");
 }
 
+.holder {
+	padding: 30px;
+	background-color: #e5e5e5;
+	//background-image: -ms-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
+	//background-image: -moz-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
+	//background-image: -o-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
+	//background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e5e5e5), color-stop(1, #fff));
+	background-image: -webkit-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
+	background-image: linear-gradient(to top, #e5e5e5 0%, #fff 100%);
+	border-radius: 40px;
+	// border: 1px solid #b9babb;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .4), inset 0 1px 0 #fff;
+  //-webkit-box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .4), inset 0 1px 0 #fff;
+}
+.center-box{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
 
 /* -----------------------------------------
    Page Name 1
