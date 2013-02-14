@@ -14,55 +14,84 @@
 ----------------------------------------- */
 body {
   background-color:#f3f6e5;
+  //padding-top:0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #797b72;
+  font-family: 'Oxygen', sans-serif;
   font-weight: bold;
   line-height: 1.25
 }
+p, label {
+  color: #665;
+  font-family:'Oxygen', sans-serif;
+}
+
 p {
-  color:#777;
+  color:#161816;
+  font-size: 10pt;
+}
+
+.biglabel {
+  font-size: 12pt;
+  padding: 5px;
 }
 
 h2 {
   font-family: 'Averia Serif Libre', courier;
-  font-size: 72px;
-  color: #e5f2f5; // rgba(234, 252, 255, 1); //#f3f6e5; 
-  text-shadow: 0 1px 1px rgba(0,0,0,1);
+  font-size: 50px;
+  color: black;
   padding: 0 0 0 0;
 }
 .nav-bar {
   color:black;
 }
 .top-bar {
-  background-color: #e5f2f5; //#797b72;
+  background-color: #e5f2f5; //#797b72; //#689345; green // #f3f6e5; yellow
   font-family: sans-serif;
 }
 
 
-.topTrees {
-  padding: 50px 0;
-  // background-image:url("../images/tree_light1.jpg");
-}
-
 .holder {
-	padding: 30px;
-	background-color: #e5e5e5;
-	//background-image: -ms-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
-	//background-image: -moz-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
-	//background-image: -o-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
-	//background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e5e5e5), color-stop(1, #fff));
-	background-image: -webkit-linear-gradient(bottom, #e5e5e5 0%, #fff 100%);
-	background-image: linear-gradient(to top, #e5e5e5 0%, #fff 100%);
+	padding: 50px 0 50px 0;
+    margin-top:0px;
+  margin-bottom:15px;
+
+}
+.holder-big {
+	padding: 30px 30px 170px 30px;
+	background-image: -webkit-linear-gradient(bottom, rgba(243,246,229,0.5) 0%,
+  rgba(255,255,255,0.5) 100%);
+	background-image: linear-gradient(to top, rgba(243,246,229,0.5) 0%, 
+  rgba(255,255,255,0.5) 100%);
 	border-radius: 40px;
-	// border: 1px solid #b9babb;
-  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .4), inset 0 1px 0 #fff;
-  //-webkit-box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .4), inset 0 1px 0 #fff;
 }
 .center-box{
-  margin-top:100px;
-  margin-bottom:100px;
+  margin: 0 auto;
+  background-image: url(../images/header3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+}
+
+.center-box-big {
+  padding:120px 0 100px 0;
+  margin: 0 auto;
+  background-image: url(../images/tree_liquefy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+}
+
+.main-content {
+  background-image: url(../images/bg.jpg);
+}
+
+.bigbird {
+  background-image: url(../images/owl2.png);
 }
 
 
