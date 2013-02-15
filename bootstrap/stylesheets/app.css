@@ -83,8 +83,12 @@ h2 {
   background-image: url(../images/bg.jpg);
 }
 
-.main-content h2 {
+.link-box h2 {
   font-size: 26pt;
+}
+
+.link-box {
+  text-align: center;
 }
 
 .bigbird {
