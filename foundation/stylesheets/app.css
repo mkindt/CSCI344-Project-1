@@ -14,7 +14,6 @@
 ----------------------------------------- */
 body {
   background-color:#f3f6e5;
-  //padding-top:0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.25
 }
+
 p, h5, label {
   color: #665;
   font-family:'Oxygen', sans-serif;
@@ -44,9 +44,11 @@ h2 {
   color: black;
   padding: 0 0 0 0;
 }
+
 .nav-bar {
   color:black;
 }
+
 .top-bar {
   background-color: #e5f2f5; //#797b72; //#689345; green // #f3f6e5; yellow
   font-family: sans-serif;
@@ -55,10 +57,10 @@ h2 {
 
 .holder {
 	padding: 50px 0 50px 0;
-    margin-top:0px;
+  margin-top:0px;
   margin-bottom:15px;
-
 }
+
 .holder-big {
 	padding: 30px 30px 170px 30px;
 	background-image: -webkit-linear-gradient(bottom, rgba(243,246,229,0.5) 0%,
@@ -67,6 +69,7 @@ h2 {
   rgba(255,255,255,0.5) 100%);
 	border-radius: 40px;
 }
+
 .center-box{
   margin: 0 auto;
   background-image: url(../images/header3.jpg);
